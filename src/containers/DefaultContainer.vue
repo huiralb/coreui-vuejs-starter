@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import nav from "@/util/sidebar-nav"
+import nav from "@/shared/sidebar-nav"
 import {
   Header as AppHeader,
   SidebarToggler,
