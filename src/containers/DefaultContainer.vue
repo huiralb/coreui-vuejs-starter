@@ -76,7 +76,7 @@ export default {
   data() {
     return {
       nav: nav.items,
-      app_name: process.env.APP_NAME || "AdsBooster"
+      app_name: process.env.APP_NAME || "CoreUi"
     }
   },
   computed: {
