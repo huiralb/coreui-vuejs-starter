@@ -20,11 +20,14 @@
 <script>
 import TableEmptyData from "@/components/commons/table-empty-data"
 import Loader from "@/components/commons/loader"
+import fields from "@/shared/fields/dashboard"
 
 export default {
+  components: { TableEmptyData },
   data() {
     return {
       items: [],
+      fields: fields(),
       onRequest: false
     }
   }
